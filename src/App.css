@@ -32,6 +32,11 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    height: 100%;
+    overflow: auto;
+  }
+
   .logo {
     width: 100%;
   }
